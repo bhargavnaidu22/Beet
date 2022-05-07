@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gbnsolutions.beet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".Notification.ApplicationClass"
+        android:theme="@style/Theme.Beet"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".Activity.DBtest">
+
+        </activity>
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Play"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name=".Activity.SongsList"
+            android:screenOrientation="fullSensor" />
+        <activity android:name=".Activity.MainActivity" />
+        <service android:name=".Notification.MusicService" android:enabled="true"/>
+        <receiver android:name=".Notification.NotificationReciever" android:enabled="true">
+            <intent-filter>
+                <action android:name="NEXT"/>
+                <action android:name="PREVIOUS"/>
+                <action android:name="PLAY"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

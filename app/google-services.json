@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "854172018047",
+    "firebase_url": "https://beet-d829d-default-rtdb.firebaseio.com",
+    "project_id": "beet-d829d",
+    "storage_bucket": "beet-d829d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854172018047:android:efd5408e24e42f1878a64a",
+        "android_client_info": {
+          "package_name": "com.gbnsolutions.beet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854172018047-ohr6p1k8e7gr88hao97g7d4j7qsgqrvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvH4mjJesOrVFunW485rLJJax9rBgoUMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854172018047-ohr6p1k8e7gr88hao97g7d4j7qsgqrvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854172018047:android:6768f90bb29295d678a64a",
+        "android_client_info": {
+          "package_name": "com.gbnsolutions.beetbackend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854172018047-ohr6p1k8e7gr88hao97g7d4j7qsgqrvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvH4mjJesOrVFunW485rLJJax9rBgoUMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854172018047-ohr6p1k8e7gr88hao97g7d4j7qsgqrvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
